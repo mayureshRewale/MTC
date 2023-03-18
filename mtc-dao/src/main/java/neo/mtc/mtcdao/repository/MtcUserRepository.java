@@ -11,4 +11,6 @@ public interface MtcUserRepository extends JpaRepository<MtcUserEntity, Long> {
 
     MtcUserEntity findByMuUsername(String username);
 
+    MtcUserEntity findByMuUserId(String userId);
+
 }
