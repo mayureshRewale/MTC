@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/mtc-discovery/pom.xml" />
         <option value="$PROJECT_DIR$/mtc-api-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/mtc-swagger/pom.xml" />
+        <option value="$PROJECT_DIR$/mtc-commons/pom.xml" />
       </list>
     </option>
   </component>

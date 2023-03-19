@@ -8,10 +8,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="mtc-dao" />
-        <module name="mtc-api-gateway" />
         <module name="mtc-security" />
         <module name="mtc-discovery" />
+        <module name="mtc-api-gateway" />
         <module name="mtc-swagger" />
+        <module name="mtc-commons" />
         <module name="mtc-user" />
       </profile>
     </annotationProcessing>
@@ -19,6 +20,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="mtc-api-gateway" options="-parameters" />
+      <module name="mtc-commons" options="-parameters" />
       <module name="mtc-dao" options="-parameters" />
       <module name="mtc-discovery" options="-parameters" />
       <module name="mtc-security" options="-parameters" />

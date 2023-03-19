@@ -2,6 +2,8 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/mtc-api-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mtc-commons/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mtc-commons/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mtc-dao/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mtc-dao/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mtc-discovery/src/main/java" charset="UTF-8" />

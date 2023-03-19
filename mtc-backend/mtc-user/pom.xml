@@ -50,6 +50,11 @@
 			<artifactId>mtc-swagger</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
+		<dependency>
+			<groupId>neo.mtc</groupId>
+			<artifactId>mtc-commons</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 	<dependencyManagement>
 		<dependencies>
