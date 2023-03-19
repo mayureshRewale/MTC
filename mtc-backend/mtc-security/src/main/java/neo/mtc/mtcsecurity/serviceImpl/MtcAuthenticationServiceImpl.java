@@ -1,6 +1,8 @@
 package neo.mtc.mtcsecurity.serviceImpl;
 
 import lombok.extern.slf4j.Slf4j;
+import neo.mtc.mtccommons.utils.CommonUtils;
+import neo.mtc.mtccommons.utils.RedisUtils;
 import neo.mtc.mtcdao.bean.ServiceResponseBean;
 import neo.mtc.mtcdao.entity.MtcRoleEntity;
 import neo.mtc.mtcdao.entity.MtcUserEntity;
@@ -10,10 +12,8 @@ import neo.mtc.mtcdao.request.MtcLoginRequest;
 import neo.mtc.mtcdao.request.MtcUserDetailRequest;
 import neo.mtc.mtcdao.response.MtcLoginResponse;
 import neo.mtc.mtcdao.response.MtcRegisterResponse;
-import neo.mtc.mtcdao.utils.CommonUtils;
 import neo.mtc.mtcsecurity.config.MtcJwtService;
 import neo.mtc.mtcsecurity.serviceInterface.IMtcAuthenticationService;
-import neo.mtc.mtcsecurity.util.RedisUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

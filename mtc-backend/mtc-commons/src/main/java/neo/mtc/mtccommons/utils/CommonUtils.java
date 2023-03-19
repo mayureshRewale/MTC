@@ -1,4 +1,4 @@
-package neo.mtc.mtcdao.utils;
+package neo.mtc.mtccommons.utils;
 
 import java.security.SecureRandom;
 
