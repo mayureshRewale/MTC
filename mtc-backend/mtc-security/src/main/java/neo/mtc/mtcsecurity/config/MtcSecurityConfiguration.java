@@ -14,7 +14,7 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 @Configuration
 @EnableWebSecurity
 @RequiredArgsConstructor
-public class QBSecurityConfiguration {
+public class MtcSecurityConfiguration {
 
     @Autowired
     private final MtcJwtAuthenticationFilter mtcJwtAuthenticationFilter;
@@ -28,7 +28,7 @@ public class QBSecurityConfiguration {
                 .csrf()
                 .disable()
                 .authorizeHttpRequests()
-                .antMatchers("/api/v1/security/auth/**")
+                .antMatchers("/**")
                 .permitAll()
                 .anyRequest().authenticated()
                 .and()
